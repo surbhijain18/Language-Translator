@@ -85,7 +85,7 @@ class Ui_HCI(object):
         QtCore.QMetaObject.connectSlotsByName(HCI)
 
     def printfunc(self ):
-        subscriptionKey = 'f5476ef3d4374920a8599bdc0308f962'
+        subscriptionKey = 'SUBSCRIPTION KEY'
 
         host = 'api.microsofttranslator.com'
         path = '/V2/Http.svc/Translate'
@@ -94,7 +94,7 @@ class Ui_HCI(object):
 
         target = self.languagesel(test)
         if (target == 'error'):
-            #test = str(self.comboBox_3.currentText())
+    
             target = self.languagesel(test)
         else:
             text = self.textEdit.toPlainText()
