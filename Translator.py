@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Translator.ui'
-#
-# Created by: PyQt5 UI code generator 5.10
-#
-# WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import QUrl
@@ -88,8 +83,7 @@ class Ui_HCI(object):
         QtCore.QMetaObject.connectSlotsByName(HCI)
 
     def printfunc(self ):
-        subscriptionKey = '74857aa273724df793371c715124228d'
-    #    subscriptionKey = '7e1cd600d4024c33a79ef609b63c5b54'
+        subscriptionKey = 'SUBSCRIPTION KEY'
 
         host = 'api.microsofttranslator.com'
         path = '/V2/Http.svc/Translate'
